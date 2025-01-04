@@ -1,0 +1,23 @@
+{
+  "name": "file-transfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.3",
+    "multer": "^1.4.5-lts.1"
+  }
+}
